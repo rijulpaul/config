@@ -1,0 +1,802 @@
+{
+  "extensions": {
+    "aquarium-theme": {
+      "manifest": {
+        "id": "aquarium-theme",
+        "name": "Aquarium Theme",
+        "version": "0.8.0",
+        "schema_version": 1,
+        "description": "A colorful, dark, cozy Zed port of the Aquarium theme.",
+        "repository": "https://github.com/biaqat/aquarium-theme-zed",
+        "authors": [
+          "blaqat <blaqat.ag@gmail.com>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [
+          "themes/aquarium.json"
+        ],
+        "icon_themes": [],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "barbenheimer": {
+      "manifest": {
+        "id": "barbenheimer",
+        "name": "Barbenheimer Theme",
+        "version": "1.3.1",
+        "schema_version": 1,
+        "description": "A theme inspired by the Internet phenomenon of the same name. It combines the pink and playful aesthetics of Barbie with the dark and dramatic tones of Oppenheimer.",
+        "repository": "https://github.com/jayvicsanantonio/barbenheimer-zed-theme",
+        "authors": [
+          "Jayvic San Antonio <codes@jayvicsanantonio.dev>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [
+          "themes/barbenheimer.json"
+        ],
+        "icon_themes": [],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "catppuccin-blur": {
+      "manifest": {
+        "id": "catppuccin-blur",
+        "name": "Catppuccin Blur",
+        "version": "0.4.0",
+        "schema_version": 1,
+        "description": "Catppuccin themes with blur",
+        "repository": "https://github.com/jenslys/zed-catppuccin-blur",
+        "authors": [
+          "Jens Lystad <jens@lystad.io>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [
+          "themes/catppuccin-blur.json"
+        ],
+        "icon_themes": [],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "catppuccin-icons": {
+      "manifest": {
+        "id": "catppuccin-icons",
+        "name": "Catppuccin Icons",
+        "version": "1.24.0",
+        "schema_version": 1,
+        "description": "🦊 Soothing pastel icons for Zed",
+        "repository": "https://github.com/catppuccin/zed-icons",
+        "authors": [
+          "Catppuccin <releases@catppuccin.com>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [],
+        "icon_themes": [
+          "icon_themes/catppuccin-icons.json"
+        ],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "cutiepro-theme": {
+      "manifest": {
+        "id": "cutiepro-theme",
+        "name": "Cutiepro Theme",
+        "version": "0.1.0",
+        "schema_version": 1,
+        "description": "A dark pastel theme emphasizing warm colors and extraordinarily cute, girly vibes",
+        "repository": "https://codeberg.org/wuemeli/cutiepro-zed",
+        "authors": [
+          "wuemeli <heelo@wuemeli.com>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [
+          "themes/cutiepro.json"
+        ],
+        "icon_themes": [],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "dockerfile": {
+      "manifest": {
+        "id": "dockerfile",
+        "name": "Dockerfile",
+        "version": "0.3.0",
+        "schema_version": 1,
+        "description": "Dockerfile and Docker Compose support.",
+        "repository": "https://github.com/zed-extensions/dockerfile",
+        "authors": [
+          "d1y <chenhonzho@gmail.com>",
+          "joshmeads <github@joshmeads.com>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.7.0"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/docker-compose",
+          "languages/dockerfile"
+        ],
+        "grammars": {
+          "dockerfile": {
+            "repository": "https://github.com/camdencheek/tree-sitter-dockerfile",
+            "rev": "868e44ce378deb68aac902a9db68ff82d2299dd0",
+            "path": null
+          },
+          "yaml": {
+            "repository": "https://github.com/zed-industries/tree-sitter-yaml",
+            "rev": "baff0b51c64ef6a1fb1f8390f3ad6015b83ec13a",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "docker-language-server": {
+            "language": "Dockerfile",
+            "languages": [
+              "Dockerfile",
+              "Docker Compose"
+            ],
+            "language_ids": {
+              "Docker Compose": "dockercompose",
+              "Dockerfile": "dockerfile"
+            },
+            "code_action_kinds": null
+          },
+          "dockerfile-language-server": {
+            "language": "Dockerfile",
+            "languages": [],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": [],
+        "debug_adapters": {
+          "buildx-dockerfile": {
+            "schema_path": "debug_adapter_schemas/buildx-dockerfile.json"
+          }
+        }
+      },
+      "dev": false
+    },
+    "gruvbox-material": {
+      "manifest": {
+        "id": "gruvbox-material",
+        "name": "Gruvbox Material",
+        "version": "1.1.0",
+        "schema_version": 1,
+        "description": "Gruvbox Material theme for Zed editor",
+        "repository": "https://github.com/tokiory/zed-gruvbox-material",
+        "authors": [
+          "tokiory <tokiory.work@gmail.com>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [
+          "themes/gruvbox-material.json"
+        ],
+        "icon_themes": [],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "html": {
+      "manifest": {
+        "id": "html",
+        "name": "HTML",
+        "version": "0.3.2",
+        "schema_version": 1,
+        "description": "HTML support.",
+        "repository": "https://github.com/zed-industries/zed",
+        "authors": [
+          "Isaac Clayton <slightknack@gmail.com>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.7.0"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/html"
+        ],
+        "grammars": {
+          "html": {
+            "repository": "https://github.com/tree-sitter/tree-sitter-html",
+            "rev": "bfa075d83c6b97cd48440b3829ab8d24a2319809",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "vscode-html-language-server": {
+            "language": "HTML",
+            "languages": [],
+            "language_ids": {
+              "CSS": "css",
+              "HTML": "html"
+            },
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "jetbrains-new-ui-icons": {
+      "manifest": {
+        "id": "jetbrains-new-ui-icons",
+        "name": "JetBrains New UI Icon Theme",
+        "version": "2.2.1",
+        "schema_version": 1,
+        "description": "JetBrains New UI icons theme for Zed",
+        "repository": "https://github.com/ankddev/zed-jetbrains-newui-icons",
+        "authors": [
+          "ANKDDEV"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [],
+        "icon_themes": [
+          "icon_themes/jetbrains-new-ui-icons-theme.json"
+        ],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "log": {
+      "manifest": {
+        "id": "log",
+        "name": "LOG",
+        "version": "0.0.7",
+        "schema_version": 1,
+        "description": "Syntax highlighting for log files.",
+        "repository": "https://github.com/nervenes/zed-log",
+        "authors": [
+          "nervenes",
+          "notpeter",
+          "d1y"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/log"
+        ],
+        "grammars": {
+          "log": {
+            "repository": "https://github.com/Tudyx/tree-sitter-log",
+            "rev": "62cfe307e942af3417171243b599cc7deac5eab9",
+            "path": null
+          }
+        },
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "material-icon-theme": {
+      "manifest": {
+        "id": "material-icon-theme",
+        "name": "Material Icon Theme",
+        "version": "1.3.2",
+        "schema_version": 1,
+        "description": "Material Design icons.",
+        "repository": "https://github.com/zed-extensions/material-icon-theme",
+        "authors": [
+          "Zed Industries <support@zed.dev>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [],
+        "icon_themes": [
+          "icon_themes/material-icon-theme.json"
+        ],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "oxocarbon": {
+      "manifest": {
+        "id": "oxocarbon",
+        "name": "Oxocarbon (IBM Carbon) Theme",
+        "version": "0.1.3",
+        "schema_version": 1,
+        "description": "📺 Inspired by IBM Carbon Design System, this theme is meticulously crafted to offer a refined and professional visual experience, available in multiple dark variations.",
+        "repository": "https://github.com/takk8is/oxocarbon-theme-for-zed",
+        "authors": [
+          "David C Cavalcante <davcavalcante@proton.me>",
+          "Takk™ Innovate Studio <say@takk.ag>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [
+          "themes/oxocarbon.json"
+        ],
+        "icon_themes": [],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "toml": {
+      "manifest": {
+        "id": "toml",
+        "name": "TOML",
+        "version": "1.1.0",
+        "schema_version": 1,
+        "description": "TOML support.",
+        "repository": "https://github.com/zed-extensions/toml",
+        "authors": [
+          "Max Brunsfeld <max@zed.dev>",
+          "Ammar Arif <evergreenkary@gmail.com>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.7.0"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/toml"
+        ],
+        "grammars": {
+          "toml": {
+            "repository": "https://github.com/tree-sitter/tree-sitter-toml",
+            "rev": "342d9be207c2dba869b9967124c679b5e6fd0ebe",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "taplo": {
+            "language": null,
+            "languages": [
+              "TOML"
+            ],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "tsgo": {
+      "manifest": {
+        "id": "tsgo",
+        "name": "TypeScript Language Server",
+        "version": "1.1.0",
+        "schema_version": 1,
+        "description": "TypeScript v7's native compiler and language server.",
+        "repository": "https://github.com/zed-extensions/tsgo",
+        "authors": [
+          "Zed Industries <hello@zed.dev>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.7.0"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {
+          "typescript-ls": {
+            "language": null,
+            "languages": [
+              "TypeScript",
+              "TSX",
+              "JavaScript",
+              "JSX"
+            ],
+            "language_ids": {
+              "TSX": "typescriptreact",
+              "TypeScript": "typescript",
+              "JavaScript": "javascript",
+              "JSX": "javascriptreact"
+            },
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "vscode-dark-modern": {
+      "manifest": {
+        "id": "vscode-dark-modern",
+        "name": "VSCode Dark Modern",
+        "version": "0.1.6",
+        "schema_version": 1,
+        "description": "VSCode Dark Modern Theme for Zed",
+        "repository": "https://github.com/kcamcam/vscode_dark_modern.zed",
+        "authors": [
+          "kcamcam <kevincamellini@gmail.com>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [
+          "themes/vscode-dark-modern.json"
+        ],
+        "icon_themes": [],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    }
+  },
+  "themes": {
+    "Aquarium": {
+      "extension": "aquarium-theme",
+      "path": "themes/aquarium.json"
+    },
+    "Aquarium Coral": {
+      "extension": "aquarium-theme",
+      "path": "themes/aquarium.json"
+    },
+    "Aquarium Light": {
+      "extension": "aquarium-theme",
+      "path": "themes/aquarium.json"
+    },
+    "Barbenheimer Bunker": {
+      "extension": "barbenheimer",
+      "path": "themes/barbenheimer.json"
+    },
+    "Barbenheimer Dreamhouse": {
+      "extension": "barbenheimer",
+      "path": "themes/barbenheimer.json"
+    },
+    "Barbenheimer Nuclear Sunrise": {
+      "extension": "barbenheimer",
+      "path": "themes/barbenheimer.json"
+    },
+    "Catppuccin Espresso (Blur)": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Espresso (Blur) [Heavy]": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Espresso (Blur) [Light]": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Frappé (Blur)": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Frappé (Blur) [Heavy]": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Frappé (Blur) [Light]": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Iced Latte (Blur)": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Iced Latte (Blur) [Heavy]": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Iced Latte (Blur) [Light]": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Latte (Blur)": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Latte (Blur) [Heavy]": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Latte (Blur) [Light]": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Macchiato (Blur)": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Macchiato (Blur) [Heavy]": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Macchiato (Blur) [Light]": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Mocha (Blur)": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Mocha (Blur) [Heavy]": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Catppuccin Mocha (Blur) [Light]": {
+      "extension": "catppuccin-blur",
+      "path": "themes/catppuccin-blur.json"
+    },
+    "Gruvbox Material": {
+      "extension": "gruvbox-material",
+      "path": "themes/gruvbox-material.json"
+    },
+    "Oxocarbon Dark (IBM Carbon)": {
+      "extension": "oxocarbon",
+      "path": "themes/oxocarbon.json"
+    },
+    "Oxocarbon Dark (Variant I)": {
+      "extension": "oxocarbon",
+      "path": "themes/oxocarbon.json"
+    },
+    "Oxocarbon Dark (Variant II)": {
+      "extension": "oxocarbon",
+      "path": "themes/oxocarbon.json"
+    },
+    "Oxocarbon Dark (Variation III)": {
+      "extension": "oxocarbon",
+      "path": "themes/oxocarbon.json"
+    },
+    "Oxocarbon Light (IBM Carbon)": {
+      "extension": "oxocarbon",
+      "path": "themes/oxocarbon.json"
+    },
+    "Oxocarbon Light (Variation I)": {
+      "extension": "oxocarbon",
+      "path": "themes/oxocarbon.json"
+    },
+    "Oxocarbon Light (Variation II)": {
+      "extension": "oxocarbon",
+      "path": "themes/oxocarbon.json"
+    },
+    "Oxocarbon Light (Variation III)": {
+      "extension": "oxocarbon",
+      "path": "themes/oxocarbon.json"
+    },
+    "VSCode Dark Modern": {
+      "extension": "vscode-dark-modern",
+      "path": "themes/vscode-dark-modern.json"
+    },
+    "cutiepro": {
+      "extension": "cutiepro-theme",
+      "path": "themes/cutiepro.json"
+    }
+  },
+  "icon_themes": {
+    "Catppuccin Frappé": {
+      "extension": "catppuccin-icons",
+      "path": "icon_themes/catppuccin-icons.json"
+    },
+    "Catppuccin Frappé Monochrome": {
+      "extension": "catppuccin-icons",
+      "path": "icon_themes/catppuccin-icons.json"
+    },
+    "Catppuccin Latte": {
+      "extension": "catppuccin-icons",
+      "path": "icon_themes/catppuccin-icons.json"
+    },
+    "Catppuccin Latte Monochrome": {
+      "extension": "catppuccin-icons",
+      "path": "icon_themes/catppuccin-icons.json"
+    },
+    "Catppuccin Macchiato": {
+      "extension": "catppuccin-icons",
+      "path": "icon_themes/catppuccin-icons.json"
+    },
+    "Catppuccin Macchiato Monochrome": {
+      "extension": "catppuccin-icons",
+      "path": "icon_themes/catppuccin-icons.json"
+    },
+    "Catppuccin Mocha": {
+      "extension": "catppuccin-icons",
+      "path": "icon_themes/catppuccin-icons.json"
+    },
+    "Catppuccin Mocha Monochrome": {
+      "extension": "catppuccin-icons",
+      "path": "icon_themes/catppuccin-icons.json"
+    },
+    "JetBrains New UI Icons (Dark)": {
+      "extension": "jetbrains-new-ui-icons",
+      "path": "icon_themes/jetbrains-new-ui-icons-theme.json"
+    },
+    "JetBrains New UI Icons (Light)": {
+      "extension": "jetbrains-new-ui-icons",
+      "path": "icon_themes/jetbrains-new-ui-icons-theme.json"
+    },
+    "Material Icon Theme": {
+      "extension": "material-icon-theme",
+      "path": "icon_themes/material-icon-theme.json"
+    }
+  },
+  "languages": {
+    "Docker Compose": {
+      "extension": "dockerfile",
+      "path": "languages/docker-compose",
+      "matcher": {
+        "path_suffixes": [
+          "docker-compose.yml",
+          "docker-compose.yaml",
+          "compose.yaml",
+          "compose.yml"
+        ],
+        "first_line_pattern": null,
+        "modeline_aliases": []
+      },
+      "hidden": false,
+      "grammar": "yaml",
+      "query_files": 231
+    },
+    "Dockerfile": {
+      "extension": "dockerfile",
+      "path": "languages/dockerfile",
+      "matcher": {
+        "path_suffixes": [
+          "Dockerfile",
+          "Containerfile",
+          "dockerfile"
+        ],
+        "first_line_pattern": null,
+        "modeline_aliases": []
+      },
+      "hidden": false,
+      "grammar": "dockerfile",
+      "query_files": 17
+    },
+    "HTML": {
+      "extension": "html",
+      "path": "languages/html",
+      "matcher": {
+        "path_suffixes": [
+          "html",
+          "htm",
+          "shtml"
+        ],
+        "first_line_pattern": null,
+        "modeline_aliases": []
+      },
+      "hidden": false,
+      "grammar": "html",
+      "query_files": 63
+    },
+    "LOG": {
+      "extension": "log",
+      "path": "languages/log",
+      "matcher": {
+        "path_suffixes": [
+          "log"
+        ],
+        "first_line_pattern": null,
+        "modeline_aliases": []
+      },
+      "hidden": false,
+      "grammar": "log",
+      "query_files": 1
+    },
+    "TOML": {
+      "extension": "toml",
+      "path": "languages/toml",
+      "matcher": {
+        "path_suffixes": [
+          "Cargo.lock",
+          "toml",
+          "Pipfile",
+          "uv.lock"
+        ],
+        "first_line_pattern": null,
+        "modeline_aliases": []
+      },
+      "hidden": false,
+      "grammar": "toml",
+      "query_files": 639
+    }
+  }
+}
