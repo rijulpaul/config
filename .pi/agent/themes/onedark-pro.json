@@ -1,6 +1,7 @@
 {
-  "$schema": "https://raw.githubusercontent.com/badlogic/pi-mono/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "$schema": "https://pi.dev/schemas/theme.schema.json",
   "name": "onedark-pro",
+  "appearance": "dark",
   "vars": {
     "accent": "#61afef",
     "accentBright": "#c678dd",
@@ -83,26 +84,5 @@
     "pageBg": "bg",
     "cardBg": "bgCard",
     "infoBg": "bgSubtle"
-  },
-  "extras": {
-    "assistantPrefix": "◆",
-    "assistantPrefixColor": "#61afef",
-    "userPrefixColor": "#c8cdd6",
-    "dividerChar": "\u2500",
-    "dividerColor": "#3e4451",
-    "showDivider": "false",
-    "quoteStyle": "true",
-    "userPrefix": "\u2502",
-    "quoteColor": "#61afef",
-    "inputBorderColor": "#61afef",
-    "bashPromptColor": "#98c379",
-    "tagBgColor": "#61afef",
-    "slashSelectedColor": "#61afef",
-    "slashCommandColor": "#c8cdd6",
-    "slashDescriptionColor": "#7f848e",
-    "slashHintColor": "#5c6370",
-    "userBoxBorderColor": "#3e4451",
-    "parensTextColor": "#61afef",
-    "parensBracketColor": "#c678dd"
   }
 }

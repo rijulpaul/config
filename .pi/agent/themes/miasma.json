@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/badlogic/pi-mono/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "$schema": "https://pi.dev/schemas/theme.schema.json",
   "name": "miasma",
   "vars": {
     "accent": "#8F9A5A",
@@ -84,26 +84,5 @@
     "cardBg": "bgCard",
     "infoBg": "bgSubtle"
   },
-  "extras": {
-    "assistantPrefix": "◆",
-    "assistantPrefixColor": "accent",
-    "userPrefixColor": "text",
-    "dividerChar": "─",
-    "dividerColor": "borderMuted",
-    "showDivider": false,
-    "quoteStyle": true,
-    "userPrefix": "│",
-    "quoteChar": "┆",
-    "quoteColor": "accent",
-    "inputBorderColor": "accent",
-    "bashPromptColor": "green",
-    "tagBgColor": "accent",
-    "slashSelectedColor": "accent",
-    "slashCommandColor": "text",
-    "slashDescriptionColor": "muted",
-    "slashHintColor": "dim",
-    "userBoxBorderColor": "border",
-    "parensTextColor": "accent",
-    "parensBracketColor": "purple"
-  }
+  "appearance": "dark"
 }

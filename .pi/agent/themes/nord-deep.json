@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/badlogic/pi-mono/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "$schema": "https://pi.dev/schemas/theme.schema.json",
   "name": "nord-deep",
   "vars": {
     "accent": "#88c0d0",
@@ -91,26 +91,5 @@
     "cardBg": "bgCard",
     "infoBg": "bgSubtle"
   },
-  "extras": {
-    "assistantPrefix": "◆",
-    "assistantPrefixColor": "accent",
-    "userPrefixColor": "accent",
-    "dividerChar": "─",
-    "dividerColor": "borderMuted",
-    "showDivider": false,
-    "quoteStyle": false,
-    "userPrefix": "❯",
-    "quoteChar": "┆",
-    "quoteColor": "accent",
-    "inputBorderColor": "accent",
-    "bashPromptColor": "green",
-    "tagBgColor": "accent",
-    "slashSelectedColor": "accent",
-    "slashCommandColor": "text",
-    "slashDescriptionColor": "muted",
-    "slashHintColor": "dim",
-    "userBoxBorderColor": "borderMuted",
-    "parensTextColor": "accent",
-    "parensBracketColor": "purple"
-  }
+  "appearance": "dark"
 }

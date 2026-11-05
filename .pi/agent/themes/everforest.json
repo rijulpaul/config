@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/badlogic/pi-mono/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "$schema": "https://pi.dev/schemas/theme.schema.json",
   "name": "everforest-dark",
   "vars": {
     "accent": "#a7c080",
@@ -84,26 +84,5 @@
     "cardBg": "bgCard",
     "infoBg": "bgSubtle"
   },
-  "extras": {
-    "assistantPrefix": "◆",
-    "assistantPrefixColor": "accent",
-    "userPrefixColor": "text",
-    "dividerChar": "─",
-    "dividerColor": "borderMuted",
-    "showDivider": false,
-    "quoteStyle": true,
-    "userPrefix": "│",
-    "quoteChar": "┆",
-    "quoteColor": "accentBright",
-    "inputBorderColor": "accent",
-    "bashPromptColor": "green",
-    "tagBgColor": "cyan",
-    "slashSelectedColor": "accent",
-    "slashCommandColor": "text",
-    "slashDescriptionColor": "muted",
-    "slashHintColor": "dim",
-    "userBoxBorderColor": "border",
-    "parensTextColor": "cyan",
-    "parensBracketColor": "accentBright"
-  }
+  "appearance": "dark"
 }

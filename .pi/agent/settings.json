@@ -1,16 +1,14 @@
 {
-  "lastChangelogVersion": "0.85.1",
+  "lastChangelogVersion": "1.5.0",
   "shellPath": "E:\\Git\\bin\\bash.exe",
-  "theme": "catppuccin-mocha",
+  "theme": "onedark-pro",
   "defaultProvider": "openrouter",
   "defaultModel": "deepseek/deepseek-v4.1-flash",
   "defaultThinkingLevel": "high",
   "enabledModels": [
-    "openrouter/z-ai/glm-5.3-flash",
-    "openrouter/moonshotai/kimi-k3",
-    "openrouter/deepseek/deepseek-v4.1-flash",
     "openrouter/anthropic/claude-haiku-5.5",
-    "openrouter/anthropic/claude-sonnet-5.5"
+    "openrouter/anthropic/claude-sonnet-5.5",
+    "openrouter/deepseek/deepseek-v4.1-flash-1017"
   ],
   "packages": [
     "npm:pi-zentui",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/earendil-works/pi/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "$schema": "https://pi.dev/schemas/theme.schema.json",
   "name": "nightblossom-pastel",
   "vars": {
     "bg": "#0D1417",
@@ -29,7 +29,6 @@
     "dim": "grape",
     "text": "fg",
     "thinkingText": "fg_dim",
-
     "selectedBg": "bg_alt",
     "userMessageBg": "bg_alt",
     "userMessageText": "fg",
@@ -41,7 +40,6 @@
     "toolErrorBg": "#1E0E10",
     "toolTitle": "coral",
     "toolOutput": "fg_dim",
-
     "mdHeading": "pink",
     "mdLink": "peach",
     "mdLinkUrl": "fg_dim",
@@ -52,11 +50,9 @@
     "mdQuoteBorder": "purple",
     "mdHr": "fg_dim",
     "mdListBullet": "coral",
-
     "toolDiffAdded": "green",
     "toolDiffRemoved": "red",
     "toolDiffContext": "fg_dim",
-
     "syntaxComment": "fg_dim",
     "syntaxKeyword": "magenta",
     "syntaxFunction": "purple",
@@ -66,7 +62,6 @@
     "syntaxType": "pink",
     "syntaxOperator": "pink",
     "syntaxPunctuation": "fg_dim",
-
     "thinkingOff": "fg_dim",
     "thinkingMinimal": "grape",
     "thinkingLow": "purple",
@@ -74,12 +69,12 @@
     "thinkingHigh": "pink",
     "thinkingXhigh": "coral",
     "thinkingMax": "red",
-
     "bashMode": "yellow"
   },
   "export": {
     "pageBg": "#0D1417",
     "cardBg": "#21262D",
     "infoBg": "#231A23"
-  }
+  },
+  "appearance": "dark"
 }
